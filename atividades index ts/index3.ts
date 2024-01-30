@@ -8,7 +8,7 @@ class dog {
         this.weight = weight;
     )
 
-    break(): void {
+    bark(): void {
         console.log("Au au")
     }
 
