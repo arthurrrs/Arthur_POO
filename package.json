@@ -1,0 +1,21 @@
+{
+  "name": "atividadealgoritmos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "teste.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc index.ts && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurrrs/atividadeAlgoritmos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurrrs/atividadeAlgoritmos/issues"
+  },
+  "homepage": "https://github.com/arthurrrs/atividadeAlgoritmos#readme"
+}
+
