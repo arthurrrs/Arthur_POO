@@ -68,3 +68,17 @@ function dobrarParesMenoresQueCinco(arrayDeNumeros: number[]): number[] {
 
 
 
+const cachorro = new Mamifero("Rex", 5, "Marrom");
+const papagaio = new Ave("Loro", 2, 1.2);
+
+console.log(`Nome do Cachorro: ${cachorro.nome}`);
+console.log(`Idade do Cachorro: ${cachorro.idade}`);
+console.log(`Pelagem do Cachorro: ${cachorro.pelagem}`);
+console.log(`Som do Cachorro: ${cachorro.emitSound()}`);
+console.log(`Cachorro amamentando: ${cachorro.breastfeed()}`);
+
+console.log(`Nome do Papagaio: ${papagaio.nome}`);
+console.log(`Idade do Papagaio: ${papagaio.idade}`);
+console.log(`Envergadura do Papagaio: ${papagaio.envergadura}`);
+console.log(`Som do Papagaio: ${papagaio.emitSound()}`);
+console.log(`Papagaio voando: ${papagaio.fly()}`);
