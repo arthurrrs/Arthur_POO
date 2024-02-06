@@ -1,8 +1,8 @@
 import { Mamifero } from "./Mamifero";
 import { Ave } from "./Ave";
 
-const meuMamifero = new Mamifero("leao", 20, "branco")
-const papagaio = new Ave("loro", 2, 1.2);
+const meuMamifero = new Mamifero("leao", 20, "branco");
+const papagaio = new Ave("loro", 2, "azul");
 
 console.log(`Nome do Papagaio: ${papagaio.nome}`);
 console.log(`Idade do Papagaio: ${papagaio.idade}`);
