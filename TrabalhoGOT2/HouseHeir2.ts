@@ -1,28 +1,4 @@
-class NobleHouse {
-    nome: string;
-    lema: string;
-  
-    constructor(nome: string, lema: string) {
-      this.nome = nome;
-      this.lema = lema;
-    }
-  
-    toString(): string {
-      return `Casa Nobre: ${this.nome} - Lema: ${this.lema}`;
-    }
-  }
-
-  interface HouseHeir {
-    nome: string;
-    idade: number;
-    posicaoSucessao: number;
-  
-    getNome(): string;
-    getIdade(): number;
-    getPosicaoSucessao(): number;
-  }
-
-  class Heir implements HouseHeir {
+class Heir implements HouseHeir {
     nome: string;
     idade: number;
     posicaoSucessao: number;
