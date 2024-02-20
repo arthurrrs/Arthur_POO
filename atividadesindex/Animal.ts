@@ -17,3 +17,5 @@ constructor(name: string, weight: number) {
     eat(quantity: number); void {
         console.log("the animal has eaten " + quantity);
     }
+
+    a

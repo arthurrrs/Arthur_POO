@@ -8,3 +8,4 @@ export class Dog extends animal {
 bark(): void {
     console.log("au au");
 }
+
