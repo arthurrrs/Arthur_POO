@@ -17,9 +17,6 @@ class NobleHouse {
     idade: number;
     posicaoSucessao: number;
   
-    getNome(): string;
-    getIdade(): number;
-    getPosicaoSucessao(): number;
   }
 
   class Heir implements HouseHeir {
