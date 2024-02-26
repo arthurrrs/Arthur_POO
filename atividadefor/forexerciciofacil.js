@@ -9,7 +9,7 @@ var pessoa = {
     profissão: "Desenvolvedor",
 };
 for (var propriedade in pessoa) {
-    console.log("".concat(propriedade));
+    console.log("".concat(propriedade, ": ").concat(pessoa[propriedade]));
 }
 //3
 var frutas = ["Melancia", "Banana", "Laranja", "Bergamota", "Uva"];
