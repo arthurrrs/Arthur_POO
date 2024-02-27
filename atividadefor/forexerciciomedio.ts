@@ -1,4 +1,4 @@
-//1 
+//1
 
 function ehPrimo(numero: number): boolean {
     if (numero <= 1) {
@@ -24,8 +24,6 @@ function ehPrimo(numero: number): boolean {
     }
   }
   
-
-
 //2
 
 function contarVogais(texto: string): number {
@@ -64,3 +62,6 @@ const media = calcularMedia(notas);
 console.log(`A média das notas é: ${media}`);
 
  
+//4
+
+//5

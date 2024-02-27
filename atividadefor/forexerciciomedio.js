@@ -1,4 +1,3 @@
-//1 
 function ehPrimo(numero) {
     if (numero <= 1) {
         return false;
