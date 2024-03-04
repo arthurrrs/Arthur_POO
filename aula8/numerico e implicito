@@ -1,0 +1,9 @@
+//4 numerico e implicito 
+
+export enum Level {
+    Blue,
+    Yellow,
+    Orange,
+    Red,    
+}
+
